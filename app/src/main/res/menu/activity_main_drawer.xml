@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/last10"
+            android:title="Accueil" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/last11"
+            android:title="Mes créances" />
+
+        <item
+            android:id="@+id/blankFragmentDetail1"
+            android:icon="@drawable/last11"
+            android:title="@string/Detailll" />
+        <item
+            android:id="@+id/blankFragmentDeatail2"
+            android:icon="@drawable/last11"
+            android:title="Mes relances" />
+
+
+    </group>
+</menu>

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">user_manager_v!</string>
+    <string name="welcome_msg">Welcome User</string>
+
+    <!-- For Sign Up Page / Activity -->
+    <string name="go_to_sign_in">Vous avez déjà un compte ? S\'identifier</string>
+    <!-- For Sign In Page / Activity -->
+    <string name="go_to_sign_up">Vous n\'avez pas de compte ? S\'inscrire</string>
+    <string name="title_activity_acceuil2">acceuil2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Accueil</string>
+    <string name="menu_gallery">Mes créances</string>
+    <string name="menu_slideshow">Mes relance</string>
+    <string name="next">Next</string>
+    <string name="email_home">email_home</string>
+    <string name="main_menu">Main menu</string>
+    <string name="accueil">Accueil</string>
+    <string name="montant_chus">Montant échus</string>
+    <string name="_56_000_000">56 000 000</string>
+    <string name="montant_encours">Montant encours</string>
+    <string name="_128">128</string>
+    <string name="nombre_moyen_de_jours_en_impay_s">Nombre de jours en impayés</string>
+    <string name="_12_000_000">12 000 000</string>
+    <string name="montant_des_imay_s">Montant des imayés</string>
+    <string name="_12_000_0000">12 000 000</string>
+    <string name="compte_courant">Compte courant</string>
+    <string name="_100_000">100 000</string>
+    <string name="mes_cr_ances">Mes créances</string>
+    <string name="mes_relance">Mes relance</string>
+    <string name="coolimage">coolimage</string>
+    <string name="mes_cr_ances2">Mes créances</string>
+    <string name="mes_relance2">Mes relance</string>
+    <string name="accueil5">Accueil</string>
+    <string name="hayaya">hayaya</string>
+    <string name="Accueil">Accueil12</string>
+    <string name="Mes_créances">Mes_créances</string>
+    <string name="Mes_relance">Mes_relance</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="details">details</string>
+    <string name="Detailll">Détail créances</string>
+    <string name="adminpage">Si administrateur, cliquez ici pour continuer</string>
+    <string name="form_location">vide</string>
+    <string name="form_name">vide</string>
+    <string name="form_branch">vide</string>
+    <string name="button_save_employee">vide</string>
+    <string name="MoreCallDetails">vide</string>
+
+</resources>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homefragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/e"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="271dp"
+        android:layout_height="172dp"
+        android:contentDescription="@string/coolimage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/last7" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:drawable/divider_horizontal_textfield"
+
+        android:text="@string/accueil"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <LinearLayout
+        android:id="@+id/details_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <TextView
+            android:id="@+id/first_name32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/montant_des_imay_s"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:text="Montants des impayés" />
+
+        <TextView
+            android:id="@+id/Montant_des_imayes10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/divider_horizontal_textfield"
+
+            android:textAlignment="center"
+            android:textColor="@color/tropical_blue"
+            android:textSize="22sp"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/last_name4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/nombre_moyen_de_jours_en_impay_s"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/divider_horizontal_textfield"
+            android:text="270J"
+            android:textAlignment="center"
+            android:textColor="@color/tropical_blue"
+            android:textSize="22sp"
+            tools:layout_editor_absoluteX="0dp" />
+
+
+        <TextView
+            android:id="@+id/email54"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/montant_encours"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:text="Montants encours" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/divider_horizontal_textfield"
+            android:text="45 521 648,51"
+            android:textAlignment="center"
+            android:textColor="@color/tropical_blue"
+            android:textSize="22sp"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/last_name134"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/montant_chus"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:text="Montants échus" />
+
+        <TextView
+            android:id="@+id/last_name1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/divider_horizontal_textfield"
+            android:text="12 178 351,49"
+            android:textAlignment="center"
+            android:textColor="@color/tropical_blue"
+            android:textSize="22sp"
+            tools:layout_editor_absoluteX="0dp" />
+
+
+        <TextView
+            android:id="@+id/last_name1460"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/compte_courant"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:text="Compte courant" />
+
+        <TextView
+            android:id="@+id/last_name10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/divider_horizontal_textfield"
+            android:text="-100 000"
+            android:textAlignment="center"
+            android:textColor="@color/tropical_blue"
+            android:textSize="22sp"
+            tools:layout_editor_absoluteX="0dp" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/mes_creance"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="159dp"
+
+        android:layout_height="48dp"
+        android:padding="10dp"
+        android:text="@string/mes_cr_ances"
+        android:textColor="@color/tropical_blue"
+        android:textSize="14sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/details_layout"
+        app:layout_constraintVertical_bias="0.457" />
+
+    <Button
+        android:id="@+id/mes_relance"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="159dp"
+
+
+        android:layout_height="48dp"
+        android:padding="10dp"
+        android:text="@string/mes_relance"
+        android:textColor="@color/tropical_blue"
+        android:textSize="14sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/details_layout"
+        app:layout_constraintVertical_bias="0.457" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
